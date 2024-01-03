@@ -23,5 +23,3 @@ We trained our models on the politics domain dataset and evaluated their cross-d
 3. **LLM Fine-tuning:** We fine-tuned the LLaMa 7B and BLOOMZ multilingual LLM models in classification and causal language modeling scenarios. This involved generating the entire sequence and generating only the output label (completion-only). The code is present in the `linear_probing` and `causal_language_modeling` folders.
 
 You can find more details and the results in the report entitled `Report.pdf` in this repository.
-
-![Report](Report_image.png)
