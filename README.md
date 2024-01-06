@@ -1,4 +1,4 @@
-# cm-hate-speech-detection
+# Code-Mixed Hate Speech Detection: The LLM Perspective
 
 Detecting and flagging hate speech and abuse on social media platforms is an
 important and time sensitive task. While supervised learning approaches have
@@ -13,6 +13,8 @@ mixed hate speech dataset. We find that smaller specialized finetuned models suc
 as Hing-RoBERTa outperform both prompted and finetuned LLaMa-2 on the
 existing Hinglish Indian Politics dataset, and also generalize better to our newly
 collected dataset.
+
+<img src="figures/pipeline.jpg">
 
 We trained our models on the politics domain dataset and evaluated their cross-domain performance on our custom dataset. We evaluated the following approaches:
 
